@@ -12,10 +12,6 @@ class Passenger
   end
 
   def driver?
-    # checks what a driver value is
-  end
-
-  def drive
-    # make a passenger a driver = true
+    @drive = true
   end
 end
