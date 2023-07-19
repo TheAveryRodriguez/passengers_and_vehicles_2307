@@ -4,11 +4,12 @@ class Vehicle
     :model,
     :speed
 
-  def initialize(year, make, model, speeding = false)
+  def initialize(year, make, model, speeding = false, passengers = [])
     @year = year
     @make = make
     @model = model
     @speeding = false
+    @passengers = []
   end
 
   def speeding?
@@ -20,9 +21,11 @@ class Vehicle
   end
 
   def passengers
+    passengers = []
+    passengers << passengers
   end
 
-  def add_passenger
+  def add_passenger(passenger)
   end
 
   def num_adults
